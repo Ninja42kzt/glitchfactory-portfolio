@@ -1,0 +1,39 @@
+baseURL = 'https://glitchfactory.co.ke/'
+locale = 'en-us'
+title = 'Glitch Factory FX'
+theme = 'PaperMod'
+
+[params]
+  author = "Nicholas"
+  description = "Cybersecurity, digital forensics, and creative 3D/animation portfolio"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  mainSections = ["ctf-writeups", "forensics-cases"]
+
+[[menu.main]]
+  name = "CTF Writeups"
+  url = "/ctf-writeups/"
+  weight = 10
+
+[[menu.main]]
+  name = "Forensics Cases"
+  url = "/forensics-cases/"
+  weight = 20
+
+[[menu.main]]
+  name = "3D Gallery"
+  url = "/3d-gallery/"
+  weight = 30
+
+[[menu.main]]
+  name = "Animations"
+  url = "/animations/"
+  weight = 40
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 50
